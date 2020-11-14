@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flash Cards</title>
+    <link rel="shortcut icon" type="image/x-icon" href="icon.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+    let activated = false;
+    let dark = document.querySelector('#dark-mode');
+    dark.addEventListener('click', ()=>{
+      if(activated){
+        document.body.style.backgroundColor='white'
+        document.body.style.color='black'
+        document.querySelector('#dark-mode').style.backgroundColor='gray';
+        activated = false;
+      }
+      else{
+        document.body.style.backgroundColor='grey'
+        document.body.style.color='white'
+        document.querySelector('#dark-mode').style.backgroundColor='orange';
+        activated = true
+      }
+    })
+  </script>
+</html>

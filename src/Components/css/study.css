@@ -1,0 +1,73 @@
+
+#control-buttons{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    width: 0;
+    
+    
+ }
+
+ #study-container{
+     display: block;
+     justify-content: center;
+     width: 95%;
+     margin: auto;
+     
+     
+
+ }
+ #each-edit{
+    text-align: center;
+     border: 1px solid #ccc;
+     border-radius: 16px;
+     height: 300px;
+     display: flex;
+     width: 93%;
+     
+     align-items: center;
+     margin: auto;
+ }
+
+ #each-term, #each-show{
+     text-align: center;
+     height: 300px;
+     display: flex;
+     width: 90%;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     overflow: auto;
+     border: 1px solid #ccc;
+     border-radius: 16px;
+     margin: auto;
+     margin-bottom: 3px;
+
+ }
+ #each-show{
+    border: 2px solid rgb(93, 248, 88);
+ }
+
+ #empty{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+     height: 30px;
+     margin: auto;
+     font-size: 16px;
+ }
+
+ .study-buttons{margin: 1px;
+    width: 75px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     margin-left: 2px;
+    
+}
